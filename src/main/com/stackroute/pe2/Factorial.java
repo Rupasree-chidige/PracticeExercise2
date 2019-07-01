@@ -15,7 +15,7 @@ public class Factorial {
                 fact = fact * i;
                 if (fact >= 1 && fact <= Integer.MAX_VALUE) {
 
-                    result = "factorail Success";
+                    result = "factorial success";
                 } else {
 
                     result = "Out of bound";
