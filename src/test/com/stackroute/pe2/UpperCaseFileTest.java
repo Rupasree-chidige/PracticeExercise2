@@ -19,18 +19,6 @@ public class UpperCaseFileTest {
         upperCaseFile = null;
     }
 
-    @BeforeClass
-    public static void setUpBeforeClass() {
-
-        System.out.println("BeforeClass");
-    }
-
-    @AfterClass
-    public static void tearDownAfterClass() {
-
-        System.out.println("AfterClass");
-    }
-
     @Test
     public void givenFileShouldReturnCovnertedUpperCase() {
        String result= upperCaseFile.printUpperCase("config/days.txt");
