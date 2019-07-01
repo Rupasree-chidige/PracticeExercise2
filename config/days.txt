@@ -1,0 +1,9 @@
+/*Days in a Week*/
+monday
+tuesday
+wednesday
+thursday
+friday
+saturday
+sunday
+-----------------end------------------------
