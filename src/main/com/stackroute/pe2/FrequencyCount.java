@@ -4,11 +4,11 @@ import java.io.*;
 import java.util.*;
 
 public class FrequencyCount {
+    /*
+    * Takes the String as input and count the frequency of each word in a string*/
     public String frequency(String fname)
     {
-
-
-        Map<String, Integer> wordCounts;
+         Map<String, Integer> wordCounts;
         try (Scanner input = new Scanner(new File((fname)))) {
 
             wordCounts = new TreeMap<String, Integer>();

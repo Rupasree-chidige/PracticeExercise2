@@ -1,7 +1,7 @@
 package com.stackroute.pe2;
 
 public class Palindrome {
-
+    //checks weather the string input is palindrome or not
     public  String isPalindrome(String input) {
         String returnResult = null;
 
@@ -28,7 +28,7 @@ public class Palindrome {
 
     }
 
-
+    //checks weather the integer input is palindrome or not
     public  String isPalindrome(int number)
     {
         String result=null;

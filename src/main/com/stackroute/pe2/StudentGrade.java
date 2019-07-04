@@ -1,7 +1,7 @@
 package com.stackroute.pe2;
 
 public class StudentGrade {
-
+    //calculate the average of marks
     public float Average(int marks[])
     {
         float average = (float) 0.0;
@@ -19,7 +19,7 @@ public class StudentGrade {
         }
     }
 
-
+//calculate the maximum of the marks
     public  int getMax(int[] inputArray){
         try {
             int maxValue = inputArray[0];
@@ -34,6 +34,7 @@ public class StudentGrade {
             return -1;
         }
     }
+    //calculate the minimum of the marks
     public  int getMin(int[] inputArray){
         try {
             int minValue = inputArray[0];

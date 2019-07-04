@@ -2,6 +2,7 @@ package com.stackroute.pe2;
 
  class Member {
 
+
     public String getName() {
         return name;
     }
@@ -48,6 +49,7 @@ package com.stackroute.pe2;
      }
 }
 
+/*Member Variable constructor which takes all the varibles as parameter*/
 public class MemberVariable
 
 {
@@ -62,6 +64,7 @@ public class MemberVariable
         return stringBuilder.toString();
 
 }
+    /*Member Variable constructor which takes name and Age as parameter*/
     public String printMemberVariable(String name,int age){
 
         StringBuilder stringBuilder=new StringBuilder();
@@ -73,6 +76,7 @@ public class MemberVariable
         return stringBuilder.toString();
 
     }
+    /*Member Variable constructor which takes name as parameter*/
     public String printMemberVariable(String name){
 
         StringBuilder stringBuilder=new StringBuilder();

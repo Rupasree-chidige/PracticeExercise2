@@ -1,6 +1,8 @@
 package com.stackroute.pe2;
 
 public class PowerOfFour {
+    //checks weather the given integer is a power of four
+    //if the input is negative number then it returns Given Negative Number Message
     public String isPowerOfFour(int n)
     {
         String result=null;

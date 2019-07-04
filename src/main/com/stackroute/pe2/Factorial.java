@@ -1,6 +1,10 @@
 package com.stackroute.pe2;
 
 public class Factorial {
+
+    /*
+    * find factorial of the number if it is greater than MAX_VALUE of
+    * Integer then it returns Out of bound */
     public String findFact(int input)
     {
         String result=null;
@@ -30,6 +34,9 @@ public class Factorial {
             return result;
         }
     }
+    /*
+     * find factorial of the number if it is greater than MAX_VALUE of
+     * Long  then it returns Out of bound */
     public String findLongFact(long input)
     {
         String result=null;

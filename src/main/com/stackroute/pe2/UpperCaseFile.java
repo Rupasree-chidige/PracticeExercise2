@@ -5,10 +5,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
 
-/*
- * A simple program that reads a text file line-by-line using Java8.
- * @author Batra, Yatin
- */
 public class UpperCaseFile {
     public String  printUpperCase(String fname)
     {
